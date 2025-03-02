@@ -1,4 +1,4 @@
-# Two Pointers
+# Two Pointers Approach
 
 This approach involves having two integer variables that both move along an iterable.
 
