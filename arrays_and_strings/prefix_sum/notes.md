@@ -6,7 +6,7 @@ is the sum of all the elements upto index i (inclusive) of the original array.
 * Prefix sum allows us to find the sum of the subarray in O(1).
 * Now, if we want to calculate the sum of the subarray from index i to index j, it is `prefix[j] - prefix[i] + array[i]`
 
-**Note 1: Prefix sum is used when the problem involves sum/product of subarrays.**
+**Note 1: Prefix sum is used when the problem involves sum/product of sub-arrays.**
 
 **Note 2:** Prefix sum usually **reduces** the time complexity of a problem by O(n).
 
