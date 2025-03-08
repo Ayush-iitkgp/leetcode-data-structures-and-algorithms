@@ -23,7 +23,7 @@ A sub-array can be defined by 2 pointers left and right. This subarray is called
 5. We will use while loop to increase left as long as the new window (subarray) satisfies the constraint.
 6. For each value of `right`, The subarray becomes valid after `left` has been incremented or while lop has been completed.
 
-**Note:** If the subarray becomes invalid we might have to increase left onr or more times.
+**Note:** If the subarray becomes invalid we might have to increase left one or more times.
 
 #### Examples:
 1. Find the longest subarray with a sum less than or equal to k

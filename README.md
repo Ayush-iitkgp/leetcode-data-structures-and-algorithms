@@ -6,7 +6,7 @@ This repository contains notes and examples for the LeetCode Data Structures and
 ### Arrays and strings
 1. **Two pointers Approach:** Solve an array problem in O(n) time complexity.
 2. **Sliding Window Approach:** Solve finding a valid (longest/smallest) subarray/substring in O(n) time complexity. Also, find number of valid sub-arrays.
-3. **Prefix Sum:** Only used for array of numbers(int/float). Used when the problem involves sum of sub-arrays.
+3. **Prefix Sum:** Only used for array of numbers(int/float). Used when the problem involves **sum of sub-arrays**.
 
 **Important Tip:**
 
@@ -19,3 +19,4 @@ This repository contains notes and examples for the LeetCode Data Structures and
 
 
 ## Algorithms
+### Dynamic Programming
