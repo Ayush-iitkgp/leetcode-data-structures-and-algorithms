@@ -12,3 +12,6 @@
 4. **Climbing Stairs**: Find total number of ways to reach the top
    1. Function is: **Total number of ways to reach the i-th stair**
    2. Recurrence relation is: `dp(i) = dp (i-1) + dp(i-2)`
+5. **Min Cost Climbing Stairs:** Given an array of cost, find the minimum cost to climb stairs
+   1. Function is: **Minimum cost to pay to reach i-th stair**
+   2. Recurrence relation is: `dp(i) = min(cost[i-2]+dp(i-2), cost[i-1]+dp(i-1))`
