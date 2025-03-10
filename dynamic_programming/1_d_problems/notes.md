@@ -15,3 +15,7 @@
 5. **Min Cost Climbing Stairs:** Given an array of cost, find the minimum cost to climb stairs
    1. Function is: **Minimum cost to pay to reach i-th stair**
    2. Recurrence relation is: `dp(i) = min(cost[i-2]+dp(i-2), cost[i-1]+dp(i-1))`
+6. **Coin Change:** Minimum coins needed to reach an amount given coins
+   1. Function is: **Minimum change needed to reach amount i**
+   2. Recurrence relation is: dp(i) = 1 + min(dp(i-k) for k in coins)
+   3. Here the tricky part is the Base Condition:

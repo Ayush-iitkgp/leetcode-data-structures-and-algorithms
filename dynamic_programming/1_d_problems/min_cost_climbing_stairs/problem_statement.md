@@ -27,10 +27,10 @@ Explanation: You will start at index 0.
 - Pay 1 and climb one step to reach index 7.
 - Pay 1 and climb two steps to reach index 9.
 - Pay 1 and climb one step to reach the top.
-The total cost is 6.
+- The total cost is 6.
 
 
-Constraints:
+**Constraints:**
 
 2 <= cost.length <= 1000
 
