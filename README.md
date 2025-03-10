@@ -13,7 +13,8 @@ This repository contains notes and examples for the LeetCode Data Structures and
    * Only used for array of numbers(int/float).
    * Used when the problem involves **sum of sub-arrays**.
 
-**Important Tip:**
+**Important Tip:** Substring or sub-array problems are usually solved using Sliding Window but subsequence
+problems are usually solved into Dynamic Programming.
 
 ### Hashing
 1. **Checking for the existence:**
@@ -27,3 +28,6 @@ This repository contains notes and examples for the LeetCode Data Structures and
 
 ## Algorithms
 ### Dynamic Programming
+1. **Optimal (max/longest or min/shortest) way of doing something
+2. Number of ways of doing something
+3. The most tricky part of DP is defining the recurrence relation for the problem.
