@@ -14,7 +14,7 @@ A sub-array can be defined by 2 pointers left and right. This subarray is called
 1. It is used for the problems where a constraint is defined about a subarray and it is asked to **find a valid subarray**.
 2. It is the used for the problem for **finding the number of valid sub-arrays**.
 
-## Use Case 1: Find the best (longest) valid subarray
+## Use Case 1: Find the best (longest) valid subarray with maximum/minimum/at most/at least constraint
 **Summary: Start left and right at the start of the original array. And then iterate over right and find the left for each right where the array becomes valid.**
 1. Start the `left` and the `right` pointer at index 0 of the original array.
 2. Iterate right from 0 to len(input array).
