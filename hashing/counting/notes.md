@@ -4,7 +4,7 @@
 * If you need to count anything/find frequency, think of using hash map or set.
 
 ## Examples
-1. Longest substring that contains at most k distinct characters.
+1. Longest substring that contains at most k distinct characters (Sliding Window + Counting)
 2. **[Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/description/)**
 3. **[Check if All Characters Have Equal Number of Occurrences](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/description/)**
 

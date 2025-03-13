@@ -30,5 +30,6 @@ A sub-array can be defined by 2 pointers left and right. This subarray is called
 2. Find the smallest subarray with a sum greater than or equal to k
 3. Find the longest substring that has at most one "0"
 4. Find the subarray of size K with the highest sum/average
+5. Find the length of the longest substring that contains at most K distinct characters.
 
 ## Use Case 2: Find number of valid sub-arrays
