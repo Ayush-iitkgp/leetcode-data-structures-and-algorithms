@@ -21,6 +21,9 @@ problems are usually solved into Dynamic Programming.
    * Anytime you find your algorithm running `if ... in ...`, use hash map or set
 2. **Counting/Frequency:**
    * Anytime you want to count something think of a hash map or a set.
+   * Find the number of sub-arrays with an **exact** constraint.
+
+### Linked List
 
 
 ### Stacks and queues
