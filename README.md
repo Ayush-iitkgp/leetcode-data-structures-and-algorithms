@@ -23,13 +23,20 @@ problems are usually solved into Dynamic Programming.
    * Anytime you want to count something think of a hash map or a set.
    * Find the number of sub-arrays with an **exact** constraint.
 
-### Linked List
+### Linked lists
 
 
 ### Stacks and queues
 
 
 ## Algorithms
+
+### Greedy
+
+### Binary Search
+
+### Backtracking
+
 ### Dynamic Programming
 1. **Optimal (max/longest or min/shortest) way of doing something**
 2. Number of ways of doing something
