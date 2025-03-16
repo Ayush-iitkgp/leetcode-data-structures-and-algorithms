@@ -15,7 +15,7 @@ The 2 most use case of this approach is:
 
 #### Examples:
 1. Given a string s, return true if it is a palindrome, false otherwise.
-2. Given a sorted array of unique integers and a target integer, return true if there exists a pair of numbers that sum to target, false otherwise.
+2. Given a **sorted array** of unique integers and a target integer, return true if there exists a pair of numbers that sum to target, false otherwise.
 
 ## Use Case 2: The two variables point to the start/end of two different iterables.
 **Summary: Move along both inputs simultaneously until all elements have been checked.**

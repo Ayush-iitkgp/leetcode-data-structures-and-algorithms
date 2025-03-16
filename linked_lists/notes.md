@@ -1,0 +1,64 @@
+# Linked lists
+
+* Linked lists are **also ordered collection of elements** just like arrays.
+* Linked lists use **pointers** whereas arrays do not use it.
+* Linked lists are also used to implement other data structures.
+
+**Q: What is a Node?**
+**Ans:** A Node is an object that **contains more than one piece of data** like integer or string.
+
+**Note 1:** Linked lists are implemented using **Node**. 
+
+**Note 2:** A Node in a linked list contains a `value` and a `next` pointer which points to the next element in the linked list.
+
+**Note 3:** A Node in Python is an instance of a class as defined below.
+
+**Example of a Node in a Linked List in Python:**
+```
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.next = None
+```
+
+**Note 4:** A Node at the start of the linked list is called **head**.
+
+**Note 5:** You can only access all the elements of the linked list from head. So, **always keep reference to the head**.
+
+### Advantages and disadvantages compared to arrays
+**Important: All the problems that involve linked list will have linked list as part of the input.**
+#### Advantages
+1. We can add or remove element from a linked list in O(1) at position `i` provided we have reference to the **node before at position `i-1`** the element that needs to be removed.
+2. Linked lists do not have fixed size whereas arrays have initial size allocated ot it.
+
+#### Disadvantages
+1. You can only access an element in the list in O(n) whereas in array, it can be performed in O(1).
+
+### Linked list Operations
+#### 1. Assignment (=)
+In Python, a variable points to the reference/address of an object in the memory.
+#### 2. Chaining .next
+a. When you have multiple `.next`, for example `head.next.next`, everything before the last `next` refers to a node in the linked list.
+#### 3. Traversal
+Linked list traversal is done using **while loop**. For example:
+```
+while head is not None:
+    head = head.next
+```
+
+### Types of linked lists
+#### 1. Singly linked list
+1. Most common kind linked list.
+2. In this linked list, each node has:
+   1. a `value` 
+   2. the **pointer** to the next element, this pointer is usually called `next`.
+3. In this linked list, we can only **move forward**.
+4. **In this linked list, to add or remove element at index `i`, we need the reference to the element at index `i-1`.**
+
+#### 2. Doubly linked list
+1. In this linked list, each node has:
+   1. `value` 
+   2. the pointer to the **next node** called `next` 
+   3. the pointer to the **previous node** called `prev`
+2. In this linked list, we can **move forward and backward**.
+3. **In this linked list, to add or remove element at index `i`, we need the reference of the element at index `i` itself.**

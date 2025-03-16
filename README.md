@@ -2,9 +2,9 @@
 
 This repository contains notes and examples for the LeetCode [Data Structures and Algorithms Crash Course](https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/).
 
-## Data Structure
+## Data Structures
 ### Arrays and strings
-1. **Two pointers Approach:**
+1. **Two Pointers Approach:**
    * Solve an array problem in O(n) time complexity.
 2. **Sliding Window Approach:**
    * Solve finding a valid (longest/smallest) subarray/substring in O(n) time complexity.
