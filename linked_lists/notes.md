@@ -54,6 +54,13 @@ while head is not None:
    2. the **pointer** to the next element, this pointer is usually called `next`.
 3. In this linked list, we can only **move forward**.
 4. **In this linked list, to add or remove element at index `i`, we need the reference to the element at index `i-1`.**
+5. How to delete an element at index `i` in the singly linked list?
+   1. We need reference to the prev element.
+   2. `prev.next = prev.next.next`
+6. How to add an element at index `i` in the linked list?
+   1. We need reference to the `prev_node` element and `new_node`
+   2. `new_node.next = prev_node.next.next`
+   3. `prev_node.next = new_node`
 
 #### 2. Doubly linked list
 1. In this linked list, each node has:
@@ -62,3 +69,23 @@ while head is not None:
    3. the pointer to the **previous node** called `prev`
 2. In this linked list, we can **move forward and backward**.
 3. **In this linked list, to add or remove element at index `i`, we need the reference of the element at index `i` itself.**
+4. How to delete an element at index `i`?
+   1. We need reference to the current element in the linked list.
+   2. We need to extract `prev_node` and `next_node`
+   3. `prev_node = curr.prev` and `next_node = curr.next`
+5. How to add an element at index `i`?
+   1. We need reference to the current element in the linked list.
+   2. We only need to extract `prev_node`
+   3. `prev_node = curr.prev`
+
+#### 3. Doubly linked list with sentinel nodes
+1. Sentinel nodes are at the end of the doubly linked list and 
+
+#### Dummy pointers
+1. Dummy pointers are used so that we keep the `head` of the linked list intact because 
+it is only with head we can traverse a linked list.
+2. How to initialize a dummy pointer? 
+```
+dummy = head
+```
+3. Now, use `dummy` to traverse the linked list instead of using `head`.

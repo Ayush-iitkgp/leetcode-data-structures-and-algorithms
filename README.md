@@ -4,12 +4,12 @@ This repository contains notes and examples for the LeetCode [Data Structures an
 
 ## Data Structures
 ### Arrays and strings
-1. **Two Pointers Approach:**
+#### 1. Two Pointers Approach:
    * Solve an array problem in O(n) time complexity.
-2. **Sliding Window Approach:**
+#### 2. Sliding Window Approach
    * Solve finding a valid (longest/smallest) subarray/substring in O(n) time complexity.
    * Also, find number of valid sub-arrays.
-3. **Prefix Sum:**
+#### 3. Prefix Sum
    * Only used for array of numbers(int/float).
    * Used when the problem involves **sum of sub-arrays**.
 
@@ -17,13 +17,17 @@ This repository contains notes and examples for the LeetCode [Data Structures an
 problems are usually solved into Dynamic Programming.
 
 ### Hashing
-1. **Checking for the existence:**
+#### 1. Checking for the existence
    * Anytime you find your algorithm running `if ... in ...`, use hash map or set
-2. **Counting/Frequency:**
+#### 2. Counting/Frequency
    * Anytime you want to count something think of a hash map or a set.
    * Find the number of sub-arrays with an **exact** constraint.
 
 ### Linked lists
+#### 1. Fast and Slow Pointers
+   * Find the middle of the linked list given it has odd number of elements
+   * Find if a linked list has a cycle
+   * Given the head of a linked list and an integer k, return the `kth` node from the end.
 
 
 ### Stacks and queues
