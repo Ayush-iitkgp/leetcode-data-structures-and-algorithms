@@ -22,3 +22,7 @@ return the value of the node in the middle.
    1. Let's assume that the length of the linked list in N
    2. If you start `fast` from `Kth node` and slow from `head`
    3. When fast reaches `tail`, we have done **N-K** iteration, hence `slow` is at **N-Kth node from the head which is Kth node from the tail**.
+4. **Remove Nth Node from End of List**
+   1. We need to add a dummy node before the head to handle deletion from the head or tail
+   2. Move `slow` to the **node N-1** from the `tail`.
+   3. Return `dummy.next`
