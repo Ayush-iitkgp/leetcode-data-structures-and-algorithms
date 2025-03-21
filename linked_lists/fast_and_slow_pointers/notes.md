@@ -13,11 +13,12 @@ while fast is not None and fast.next is not None:
 ```
 
 ## Examples
-1. **Find the middle of the linked list:** Given the head of a linked list with an odd number of nodes head, 
+1. **Find the middle of the linked list:** Given the head of a linked list with an odd number of nodes head,
 return the value of the node in the middle.
 2. **Linked List Cycle:** Given the head of a linked list, determine if the linked list has a cycle.
    * If the linked list has a cycle, then `fast` and `fast.next` would never be `None`.
    * Also, at some point of time, the `fast` and the `slow` pointer would point to the same node.
 3. **Given the head of a linked list and an integer k, return the `kth` node from the end.**
-
-
+   1. Let's assume that the length of the linked list in N
+   2. If you start `fast` from `Kth node` and slow from `head`
+   3. When fast reaches `tail`, we have done **N-K** iteration, hence `slow` is at **N-Kth node from the head which is Kth node from the tail**.
