@@ -28,7 +28,9 @@ problems are usually solved into Dynamic Programming.
    * Find the middle of the linked list given it has odd number of elements
    * Find if a linked list has a cycle
    * Given the head of a linked list and an integer k, return the `kth` node from the end.
-
+#### 2. Reverse a linked list
+   * Reverse a linked list
+   * Swap nodes in pairs
 
 ### Stacks and queues
 
@@ -36,10 +38,11 @@ problems are usually solved into Dynamic Programming.
 #### Binary Tree
 
 ##### 1. Depth First Search
-* Maximum Depth of a Binary Tree
-* Path Sum
-* vdv
-* vsdvsd
+   * Maximum Depth of a Binary Tree
+   * Path Sum
+   * vdv
+   * vsdvsd
+
 ##### 2. Breadth First Search
 
 ##### 3. Binary Search Tree
