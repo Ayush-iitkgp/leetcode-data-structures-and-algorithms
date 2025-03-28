@@ -32,6 +32,18 @@ problems are usually solved into Dynamic Programming.
 
 ### Stacks and queues
 
+### Trees and Graphs
+#### Binary Tree
+
+##### 1. Depth First Search
+* Maximum Depth of a Binary Tree
+* Path Sum
+* vdv
+* vsdvsd
+##### 2. Breadth First Search
+
+##### 3. Binary Search Tree
+
 
 ## Algorithms
 
