@@ -3,6 +3,7 @@
 They represent an **ordered** iterable.
 
 **Question: What is an Ordered Iterable?**
+**Ans**: List, Tuple and String are Ordered Iterable where as Dict is an un-ordered iterable.
 
 **_Important:_**
 1. Array are **MUTABLE** where as Strings are **IMMUTABLE** in Python.
