@@ -11,7 +11,8 @@ The 2 most use case of this approach is:
 1. Start one pointer `(name left)` at the first index 0 and the other pointer `(named right)` at the last index.
 2. Use a while loop until the pointers are equal to each other.
 3. At each iteration of the loop, move the pointers towards each other. This means either increment the left, decrement right, or both.
-**Note:** Deciding which pointers to move will depend on the problem we are trying to solve.
+
+4. **Note:** Deciding which pointers to move will depend on the problem we are trying to solve.
 
 #### Examples:
 1. Given a string s, return true if it is a palindrome, false otherwise.
@@ -22,8 +23,10 @@ The 2 most use case of this approach is:
 1. Create two pointers, one for each iterable. Each pointer should start at the first index.
 2. Use a while loop until one of the pointers reaches the end of its iterable.
 3. At each iteration of the loop, move the pointers forward. This means incrementing either one of the pointers or both of the pointers.
-**Note:** Deciding which pointers to move will depend on the problem we are trying to solve.
-**Note:** Because our while loop will stop when one of the pointers reaches the end, the other pointer will not be at the end of its respective iterable when the loop finishes. Sometimes, we need to iterate through all elements - if this is the case, you will need to write extra code here to make sure both iterables are exhausted.
+
+4. **Note:** Deciding which pointers to move will depend on the problem we are trying to solve.
+
+5. **Note:** Because our while loop will stop when one of the pointers reaches the end, the other pointer will not be at the end of its respective iterable when the loop finishes. Sometimes, we need to iterate through all elements - if this is the case, you will need to write extra code here to make sure both iterables are exhausted.
 
 #### Examples:
 1. Given two sorted integer arrays arr1 and arr2, return a new array that combines both of them and is also sorted.

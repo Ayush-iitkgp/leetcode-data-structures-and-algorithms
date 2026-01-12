@@ -1,3 +1,5 @@
+[Leetcode Link](https://leetcode.com/problems/minimum-value-to-get-positive-step-by-step-sum/)
+
 Given an array of integers nums, you start with an initial positive value startValue.
 
 In each iteration, you calculate the step by step sum of startValue plus elements in nums (from left to right).
