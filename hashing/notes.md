@@ -1,7 +1,7 @@
 # Hashing
 
 * Hashing allows to reduce the time complexity of a problem by O(n).
-* In Python, we use dictionary to implement hashing.
+* In Python, we use dictionary (and sometimes **set**) to implement hashing.
 * A Hash Map, can insert and delete a key in O(1).
 * It can also update the value of a key in O(1).
 * It can also check for the existence of a key in O(1).
