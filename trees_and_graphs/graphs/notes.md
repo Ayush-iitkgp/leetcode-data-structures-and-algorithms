@@ -87,4 +87,4 @@ def build_graph(edges):
 if it is then we don't  visit the node else add it to the set and then we visit the node.
 
 **Q: Which node should be the starting point of the Graph Traversal?**
-**Ans:** It depends upon the problem statement.
+**Ans:** It will depend upon the problem statement.
