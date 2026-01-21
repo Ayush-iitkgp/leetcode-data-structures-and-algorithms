@@ -5,6 +5,7 @@
 * Linked lists are also used to implement other data structures.
 
 **Q: What is a Node?**
+
 **Ans:** A Node is an object that **contains more than one piece of data** like integer or string.
 
 **Note 1:** Linked lists are implemented using **Node**.
@@ -16,9 +17,9 @@
 **Example of a Node in a Linked List in Python:**
 ```
 class Node:
-    def __init__(self, val):
+    def __init__(self, val, next = None):
         self.val = val
-        self.next = None
+        self.next = next
 ```
 
 **Note 4:** A Node at the start of the linked list is called **head**.
@@ -36,7 +37,15 @@ class Node:
 
 ### Linked list Operations
 #### 1. Assignment (=)
-In Python, a variable points to the reference/address of an object in the memory.
+a. **In Python, a variable points to the reference/address of an object in the memory.**
+
+b. In the assignment operation below:
+```
+prev.next = node.next
+```
+`prev.next` on the left of the assignment operator refers to the arrow pointer in the Linked List where as `node.next` to the right of the assignment operator refers to the Linked List **Node**.
+
+
 #### 2. Chaining .next
 a. When you have multiple `.next`, for example `head.next.next`, everything before the last `next` refers to a node in the linked list.
 #### 3. Traversal

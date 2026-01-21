@@ -4,7 +4,7 @@
 to the **pointer (->)**. And if `node.next` is to the right of it, it refers to the **node**
 
 ## How to reverse a linked list
-1. Reversing a linked list also uses 2 pointer approach, `slow/prev` starts at `None` and `fast/curr` start at `head`.
+1. **Important:** Reversing a linked list also uses 2 pointer approach, `slow/prev` starts at `None` and `fast/curr` start at `head`.
 2. Start with `prev = None`
 3. Start with `curr = head`
 4. Iterate `while curr is not None`

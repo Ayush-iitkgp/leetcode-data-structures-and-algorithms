@@ -14,10 +14,12 @@
 1. Depth First Search (DFS)
 2. Breadth First Search (BFS)
 
-**Note:** Depth First Search (DFS) can be performed using 3 ways:
+**Note:** Depth First Search (DFS) can be performed using 3 ways ():
 1. **preorder:** `Root node -> Left node -> Right node`
 2. **inorder:** `Left node -> Root node -> Right node`
 3. **postorder:** `Left node -> Right node -> Root node`
+
+**Note**: **Left Node** is always visited **earlier** than the **Right Node** in all the 3 traversal methods.
 
 **Note:** A DFS problem related to binary tree can be solved using any one of the 3 ways.
 
