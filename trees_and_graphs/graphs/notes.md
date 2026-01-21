@@ -70,7 +70,7 @@ def build_graph(edges):
 * Here the **nodes are not numbered** from 0 to n-1.
 * This way of representing the graph **is not very intuitive.**
 * **But this is the most common way to represent a graph.**
-* In this input format, each square in the 2D matrix represents a node.
+* **Important: In this input format, each square in the 2D matrix represents a node.**
 * In this input, the edges of the graph are determined by the problem statement not by the input.
 
 ## Code differences between graphs and trees
@@ -83,8 +83,10 @@ def build_graph(edges):
 * But in the Graph traversal, we can visit the same node (vertex again), hence we need to avoid it since we want to visit a node only once.
 
 **Q:How to avoid visiting a node multiple times in Graph traversal?**
+
 **Ans:** We need **to keep a `set` (named `seen`) of visited nodes** and before we visit the node, we must check if the node is already in the set,
 if it is then we don't  visit the node else add it to the set and then we visit the node.
 
 **Q: Which node should be the starting point of the Graph Traversal?**
+
 **Ans:** It will depend upon the problem statement.

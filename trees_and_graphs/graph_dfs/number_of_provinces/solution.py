@@ -6,6 +6,7 @@ class Solution:
         """
         :param isConnected: 2D matrix
         :return: number of connected components in the graph
+        Solved using DFS using Hashmap
         Step 1: Build the adjacency list - normally we don't have to do build the adjacency list but in this
         case it is required
         Step 2: Start graph traversal through a node if the node is already visited do not revisit
