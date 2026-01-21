@@ -76,11 +76,15 @@ def build_graph(edges):
 ## Code differences between graphs and trees
 * Tree has an start point called **root** node but a graph does not have an explicit start point, the start point depends on the problem statement.
 * In Tree Problems, the input Tree is given
-* But in the graph related problems, we will have to first create the graph using hashmap.
+* But in the graph related problems, we will have to first create the graph using **hashmap**.
 * When traversing a Tree, we had to only traverse the left and the right node from a specific node
 * But in the graph, **we will have to use a loop to traverse the neighbors of a node** since it can have any number of neighbors.
 * When performing Tree traversal, we are always guaranteed that we won't be visiting the same node again.
 * But in the Graph traversal, we can visit the same node (vertex again), hence we need to avoid it since we want to visit a node only once.
 
 **Q:How to avoid visiting a node multiple times in Graph traversal?**
-**Ans:**
+**Ans:** We need **to keep a `set` (named `seen`) of visited nodes** and before we visit the node, we must check if the node is already in the set,
+if it is then we don't  visit the node else add it to the set and then we visit the node.
+
+**Q: Which node should be the starting point of the Graph Traversal?**
+**Ans:** It depends upon the problem statement.
