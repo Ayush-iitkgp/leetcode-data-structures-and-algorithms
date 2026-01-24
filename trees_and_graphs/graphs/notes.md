@@ -82,9 +82,9 @@ def build_graph(edges):
 * When performing Tree traversal, we are always guaranteed that we won't be visiting the same node again.
 * But in the Graph traversal, we can visit the same node (vertex again), hence we need to avoid it since we want to visit a node only once.
 
-**Q:How to avoid visiting a node multiple times in Graph traversal?**
+**Q: How to avoid visiting a node multiple times in Graph traversal?**
 
-**Ans:** We need **to keep a `set` (named `seen`) of visited nodes** and before we visit the node, we must check if the node is already in the set,
+**Ans:** We need **to keep a `set` (named `seen/visited`) of visited nodes** and before we visit the node, we must check if the node is already in the set,
 if it is then we don't  visit the node else add it to the set and then we visit the node.
 
 **Q: Which node should be the starting point of the Graph Traversal?**
