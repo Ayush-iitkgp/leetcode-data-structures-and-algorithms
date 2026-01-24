@@ -58,5 +58,5 @@ problems are usually solved into Dynamic Programming.
 
 ### Dynamic Programming
 1. **Optimal (max/longest or min/shortest) way of doing something**
-2. Number of ways of doing something
+2. **Number of ways of doing something**
 3. The most tricky part of DP is defining the recurrence relation for the problem.

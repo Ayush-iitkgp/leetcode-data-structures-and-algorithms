@@ -7,7 +7,7 @@ class Solution:
         """
         1. Build the hashmap representing the graph
         2. Build the array that has inward connections for each vertex
-        3. Initiate the queque with the vertices that have 0 inward connections
+        3. Initiate the queue with the vertices that have 0 inward connections
         4. Iterate until the queue is empty and add to the topological sort array
         5. If the length of the array is total number of vertices then the topological sort is
         possible else not possible.
