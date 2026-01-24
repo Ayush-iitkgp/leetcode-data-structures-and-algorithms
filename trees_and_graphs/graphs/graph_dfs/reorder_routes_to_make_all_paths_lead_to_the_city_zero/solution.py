@@ -10,13 +10,15 @@ class Solution:
         3. Since the graph is connected, we can definitely say that all the nodes are accessible for any
         other nodes including node "0"
         4. Start DFS from node 0 in the undirected graph
-        5. If the edge from exist from neighbor of 0 to node 0 than the swap is not required else
-        it is required and hence increment the counter
+        5. If the edge from exist from neighbor of 0 to node 0 than the swap is not required else it is
+        required and hence increment the counter
         """
         graph = defaultdict(list)
+        edges = set()
         for x, y in connections:
             graph[x].append(y)
             graph[y].append(x)
+            edges.add((x, y))
 
         def dfs(node):
             global ans
@@ -29,7 +31,7 @@ class Solution:
                 for neighbor in graph[node]:
                     if neighbor in seen:
                         continue
-                    if [neighbor, node] not in connections:
+                    if (neighbor, node) not in edges:
                         ans += 1
                     stack.append(neighbor)
         seen = set()
