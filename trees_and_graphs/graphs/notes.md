@@ -90,3 +90,7 @@ if it is then we don't  visit the node else add it to the set and then we visit 
 **Q: Which node should be the starting point of the Graph Traversal?**
 
 **Ans:** It will depend upon the problem statement.
+
+### Important Notes
+1. A directed acyclic graph can be treated a Tree and usually such problems involve calculating **InDegree** of nodes.
+2.
