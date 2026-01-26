@@ -26,6 +26,7 @@ class Solution:
             stack.append(node)
             seen.add(node)
             while stack:
+                node = stack.pop()
                 for neighbor in graph[node]:
                     if neighbor in seen:
                         continue
