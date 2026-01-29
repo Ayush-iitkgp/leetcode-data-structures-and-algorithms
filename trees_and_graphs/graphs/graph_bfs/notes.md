@@ -16,3 +16,6 @@ queue.add(root)
 while queue:
     # do something
 ```
+* **Note:** Usually in BFS, we also store the **level of the node** in the queue.
+* **Note:** Time complexity of BFS is same as DFS which is **_O(Numer of Nodes + Number of Edges)_**
+* **Note:** Space complexity is Number of Nodes **_O(Number of Nodes)_**
