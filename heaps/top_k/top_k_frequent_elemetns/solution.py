@@ -1,32 +1,25 @@
-from heapq import heapify, heappop, heappush
+from collections import defaultdict
+from heapq import heappush, heappop
 from typing import List
 
 
 class Solution:
-    def lastStoneWeight(self, stones: List[int]) -> int:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         """
-            1. Convert the input to the max heap at each step
-            2. Take the first 2 elements in the heap
-            3. get the result of the smash at each step and add the result to the heap if not destroyed
+        1. Store the elements and their frequency in the hashmap
+        2. Create a min-heap and start pushing the elements based on their frequency
+        3. If after pushing the element the length of the heap is greater than K then
+        remove the element with the minimum frequency
         """
+        counter = defaultdict(int)
+        for num in nums:
+            counter[num] += 1
 
-        heap = [-stone for stone in stones]  # converted to negative since we need the max heap
-        print(f"Negative of the input {heap=}")
-        heapify(heap)
-        while len(heap) > 1:
-            print(f"heap is {heap}")
-            first = abs(heappop(heap))
-            second = abs(heappop(heap))
-            print(f"first element of the heap is {first}")
-            print(f"second element of the heap is {second}")
-            if second == first:
-                continue
-            else:
-                heappush(heap, -abs(first-second))
+        heap = []  # Initialize an empty heap
 
-        print(f"current heap is {heap}")
+        for key, value in counter.items():
+            heappush(heap, (value, key))
+            if len(heap) > k:
+                heappop(heap)
 
-        if len(heap) == 1:
-            return abs(heap[0])
-        else:
-            return 0
+        return [y for x, y in heap]
