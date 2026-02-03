@@ -8,9 +8,10 @@ Return the minimum cost of connecting all the given sticks into one stick in thi
 
 
 
-Example 1:
+**Example 1:**
 
 Input: sticks = [2,4,3]
+
 Output: 14
 
 Explanation: You start with sticks = [2,4,3].
@@ -19,7 +20,7 @@ Explanation: You start with sticks = [2,4,3].
 There is only one stick left, so you are done. The total cost is 5 + 9 = 14.
 3.
 
-Example 2:
+**Example 2:**
 
 Input: sticks = [1,8,3,5]
 
