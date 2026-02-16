@@ -19,10 +19,11 @@ Where as, in backtracking, we don't explore all the possible solutions.
 ## Implementation
 
 * Backtracking is always implemented using **recursion**.
-* **Backtracking algorithms are always visualised using Tree**.
+* **Backtracking algorithms are always visualised using a Tree**.
 * In backtracking, after calling the same function with the child node, **there is always a
 next line of code** and this new line is the key to backtracking.
 * Usually, the root node in the backtrack algo is **an empty array or an empty string**.
+* Also, **the entire path from the root node top the leaf node is one such possible solution**.
 
 ```python
 # curr represent the thing you are building
